@@ -1,0 +1,165 @@
+<!Doctype html>
+<html>
+<!--working bootstrap files are included as placeholders, you can edit in yours aswell-->
+
+<head>
+
+    <title> !!!Your website's name!!! </title>
+    <!--css is used for styling components on your website-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--edit custom css panel according to your preferences-->
+    <link href="./items/css/custom.css" rel="stylesheet">
+
+
+    <!--data desccribing your data-->
+    <meta charset="UTF-8">
+    <meta name="keywords" content="!!!put keywords here!!!">
+    <meta name="description" content="!!!describe the website!!!">
+    <meta name="author" content="!!!your name!!!">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+
+    <!--Navbar code-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="/">Navbar</a>
+            <!--website name here-->
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+
+                        <a class="nav-link active" aria-current="page" href="/">!!!enter link name!!!</a>
+                        <!--link1(customisable)-->
+
+                    </li>
+                    <li class="nav-item">
+
+                        <a class="nav-link" href="/">!!!link name2!!!</a>
+                        <!--link2-->
+
+                    </li>
+                    <li class="nav-item dropdown">
+
+                        <a class="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            !!!Dropdown link name!!!
+                        </a>
+                        <!--link3-->
+
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="/">Action</a></li>
+                            <li><a class="dropdown-item" href="/">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="/">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>!!!Standard heading!!!</h1>
+
+        <div class="row">
+            <div class="col-12 col-md-8">
+
+                <!--carousell with picture content-->
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./items/images/michael-d-beckwith-S_798H43JTA-unsplash.jpeg" class="d-block w-100"
+                                alt="!!!add alt text!!!">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="./items/images/anton-maksimov-juvnsky-buYosgXzKiE-unsplash.jpg"
+                                class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+                <!--responsive columns with placeholder text-->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nulla voluptatem quidem
+                    similique? Delectus nihil sit accusamus amet numquam fugiat ad omnis quae, nesciunt illo animi
+                    maiores consequuntur eaque assumenda!
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur expedita id eius? Dolores,
+                    aliquam
+                    qui consequatur itaque corporis obcaecati quae dolorum animi ducimus amet incidunt? In
+                    necessitatibus modi soluta fugit.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dignissimos accusantium cumque,
+                    minima
+                    earum magni deleniti nobis quis ipsam exercitationem modi commodi tempore corporis veniam, totam
+                    quia rem error ratione.
+                </p>
+
+            </div>
+
+            <!--sidebar-->
+            <div class="col-12 col-md-4">
+
+                <!--image card-->
+                <div class="card" style="width: 18rem;">
+                    <img src="./items/images/siddhesh-mangela-Fab6jI8XyYc-unsplash.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">!!!Info for sidebar!!!</p>
+                    </div>
+                </div>
+
+                <!--list group-->
+                <br>
+                <ul class="list-group">
+                    <li class="list-group-item">An item</li>
+                    <li class="list-group-item">A second item</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+    <!--your javascript content is here. All the interactive feautures come from here-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="./items/js/jscript.js"></script>
+
+</body>
+
+</html>
